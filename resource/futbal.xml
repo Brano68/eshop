@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<futbal>
+    <zapas>
+        <domaci>FC Kosice</domaci>
+        <hostia>Zemplin Michalovce</hostia>
+        <datum>2020-12-10</datum>
+        <vysledok>1:2</vysledok>
+        <goly>
+            <domaci>
+                <gol>
+                    <meno>Jan Kollar</meno>
+                    <cas unit="min">64</cas>
+                </gol>
+            </domaci>
+            <hostia>
+                <gol>
+                    <meno>Richard Kovac</meno>
+                    <cas unit="min">5</cas>
+                </gol>
+                <gol>
+                    <meno>Emil Novak</meno>
+                    <cas unit="min">57</cas>
+                </gol>
+            </hostia>
+        </goly>
+    </zapas>
+</futbal>
