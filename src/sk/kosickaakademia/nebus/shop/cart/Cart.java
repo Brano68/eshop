@@ -15,22 +15,27 @@ public class Cart {
     public Cart(){
         list = new ArrayList<>();
     }
-/*
-    public void addItemToTheCartm(Item item){
-        if(item instanceof CountItem && ((CountItem) item).getCount()>0 && item.getPrice()>=0){
-            list.add(item);
-        }
-        if(item instanceof WeightItem && ((WeightItem) item).getWeight()>0 && item.getPrice()>=0){
-            list.add(item);
-        }
-        if(item instanceof ServiceInterface){
-            list.add(item);
-        }
-        //list.add(item);
+
+    public List<Item> getList() {
+        return list;
     }
 
+    /*
+        public void addItemToTheCartm(Item item){
+            if(item instanceof CountItem && ((CountItem) item).getCount()>0 && item.getPrice()>=0){
+                list.add(item);
+            }
+            if(item instanceof WeightItem && ((WeightItem) item).getWeight()>0 && item.getPrice()>=0){
+                list.add(item);
+            }
+            if(item instanceof ServiceInterface){
+                list.add(item);
+            }
+            //list.add(item);
+        }
 
- */
+
+     */
     public void addItemToTheCart(Item item){
         ///doplnene ze pripocita
         boolean zapis = false;

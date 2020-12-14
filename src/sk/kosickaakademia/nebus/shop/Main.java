@@ -73,6 +73,9 @@ public class Main {
             //System.out.println("Vysledna suma je: " + cart.getTotalPrice());
         }
 
+
+        //vytvaram xml
+        GenerateXml.generateFileXML(cart);
     }
 
 }

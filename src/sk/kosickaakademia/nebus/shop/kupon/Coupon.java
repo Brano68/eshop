@@ -3,6 +3,8 @@ package sk.kosickaakademia.nebus.shop.kupon;
 public class Coupon {
     private String code;
     private int value;
+    private int hodnota;
+
 
     public Coupon(String code, int value){
         this.code = code;
@@ -16,4 +18,5 @@ public class Coupon {
     public String getCode() {
         return code;
     }
+
 }
