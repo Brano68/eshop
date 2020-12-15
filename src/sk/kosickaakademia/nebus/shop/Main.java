@@ -76,6 +76,11 @@ public class Main {
 
         //vytvaram xml
         GenerateXml.generateFileXML(cart);
+
+        //citam z xml suboru
+        System.out.println("-------------------------------------");
+        System.out.println("Vypisujem zo suboru xml na obrazovku:");
+        ReadXml.readXmlAndWriteInConsole();
     }
 
 }
